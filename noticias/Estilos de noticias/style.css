@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+@font-face {
+    font-family: 'IDroid';
+    src: url('../Fontes/IDroid.otf');
+}
+
+:root{
+    --cor1: #0592BE;
+    --cor2: #1F62DE;
+    --cor3: #0268A3;
+    --cor4: #004166;
+    --cor5: #00285A;
+    --fonte-titulo: 'Finger Paint','Times New Roman', Times, serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: black;
+    display: block;
+    line-height:2em ;
+    text-indent: 1.5em;
+    text-decoration: none;
+    
+}
+body{
+    background-color: var(--cor4);
+    
+}
+
+footer > p {
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+}
+footer > p > a{
+    color: white;
+    display: inline;
+}
+
+h1 {
+    color: var(--cor5);
+    font-size: 2.3em;
+    font-family: 'iDroid', cursive;
+    padding: 10px;
+    font-weight: bolder;
+}
+h2{
+    color: var(--cor5);
+    font-size: 1.5em;
+    font-family: 'Finger Paint';
+    padding: 10px;
+    background-image: repeating-linear-gradient(to right,var(--cor1),#4fd2fa,white,white);
+}
+header{
+    text-align: center;
+    min-height: 200px;
+    background-color: 073042;
+    background-image:url(../imagem/08145827911455.png);
+    background-position:center top ;
+    background-size: 560px;
+    
+    background-repeat:no-repeat ;
+}
+img{
+    display: block;
+    width: 100%;
+}
+main{
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding:20px 40px  ;
+    min-width: 350px;
+    max-width: 800px;
+}
+nav  a {
+    color: white;
+   margin: 10px;
+   display: inline;
+
+ 
+}
+nav {
+    background-color: var(--cor6);
+    padding-top: 9px;
+    padding-bottom: 11px;
+    text-shadow:0px 7px 7px rgba(0, 0, 0, 0.705) ;
+    font-weight: 900;
+    margin-top: -35px;
+  
+}
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align:justify ;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+.titulo{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 5em;
+    
+    
+}
+div.videoandroid{
+    padding: 20px;
+    padding-bottom: 56%;
+    margin: 0px -20px 30 -20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+div.videoandroid > iframe{
+    margin: auto;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+   width: 90%;
+   height: 90%;
+}
+
+
+ul{
+    line-height: 1.5em;
+    list-style-position: inside;
+    list-style-image: linear-gradient(var(--cor1), var(--cor3));
+    columns: 2;
+    
+}
